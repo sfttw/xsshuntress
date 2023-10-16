@@ -66,10 +66,10 @@ $mail->addAddress('joe@example.net', 'Joe User'); // Add a recipient
 6. Update nginx IP restriction to admin interface
 
 ```
-        location ^~ /admin {
-        allow 127.0.0.1; #EDIT IN YOUR IP ADDRESS 
-        index display.php;
-        deny all;
+location ^~ /admin {
+allow 127.0.0.1; #EDIT IN YOUR IP ADDRESS 
+index display.php;
+deny all;
 ```
 ## Injection
 
