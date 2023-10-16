@@ -68,7 +68,6 @@ $mail->addAddress('joe@example.net', 'Joe User'); // Add a recipient
 ```
 location ^~ /admin {
 allow 127.0.0.1; #EDIT IN YOUR IP ADDRESS 
-index display.php;
 deny all;
 ```
 ## Injection
