@@ -1,4 +1,4 @@
-<h1 align="center">XSSHuntress</h1>
+<h1 align="center">XSS Huntress</h1>
 
 <h4 align="center">My alternative to XSS Hunter for blind XSS.</h4>
 

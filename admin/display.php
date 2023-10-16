@@ -27,7 +27,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 // Output results in HTML
 echo "
 <html>
-<title>XSSHuntress 1.0</title>
+<title>XSS Huntress</title>
 <style type='text/css'>
 	* { margin: 0; padding: 0; }
 	body { 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;  
