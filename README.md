@@ -131,6 +131,11 @@ server {
 
 3. The `display.php` file displays the data stored in the SQLite database.
 
+
+## To Do
+
+- Improve web interface.
+  
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
