@@ -11,7 +11,7 @@
 
 ## Features
 
-- reports stored in `sqlite` database
+- web interface
 - sends an email notification whenever a payload is fired
 - data collected by client that fired payload: 
     - Time
@@ -22,6 +22,7 @@
     - Cookies
     - Local Storage
     - HTML of page that fired payload.
+- reports stored in `sqlite` database
 
 
 ## Installation
@@ -62,6 +63,14 @@ $mail->setFrom('from@example.com', 'Mailer');
 $mail->addAddress('joe@example.net', 'Joe User'); // Add a recipient
 ```
 
+6. Update nginx IP restriction to admin interface
+
+```
+        location ^~ /admin {
+        allow 127.0.0.1; #EDIT IN YOUR IP ADDRESS 
+        index display.php;
+        deny all;
+```
 ## Injection
 
 As soon as the script is available online, you can use your favorite XSS payload:
@@ -71,7 +80,7 @@ As soon as the script is available online, you can use your favorite XSS payload
 
 ---
 
-<img src="https://replacethis.png" />
+<img src="https://raw.githubusercontent.com/sfttw/xsshuntress/main/screenshot.png" />
 
 ---
 
