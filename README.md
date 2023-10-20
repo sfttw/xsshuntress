@@ -1,6 +1,6 @@
 <h1 align="center">XSS Huntress</h1>
 
-<h4 align="center">My alternative to XSS Hunter for blind XSS.</h4>
+<h4 align="center">A tool for identifying XSS and Blind XSS bugs in websites.</h4>
 
 <p align="center">
     <img src="https://img.shields.io/badge/php-%3E=7-blue" alt="php badge">
